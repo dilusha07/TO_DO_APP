@@ -13,7 +13,7 @@ Users can perform CRUD (Create, Read, Update, Delete) operations on their todos 
 - **Java**(Version 17)
 - **Spring Boot**(Version 3.3.5)
 - **Mysql Database**
-- **JPA 
+- **JPA** 
 - **RESTful API**
 
 ## Getting Started
@@ -26,11 +26,14 @@ Users can perform CRUD (Create, Read, Update, Delete) operations on their todos 
   
 ## API Endpoints
 
-- **POST /auth/{username}/todos**: Create a new todo.
-- **POST /users/{username}/todos**: Create a new todo.
-- **GET /users/todos**: Retrieve all todos for a specific user.
-- **GET /users/{username}/todos/{id}**: Retrieve a single todo by its ID.
-- **DELETE /users/{username}/todos/{id}**: Delete a todo by its ID.
-- **PUT /users/{username}/todos/{id}**: Update a todo.
-- **POST /users/{username}/todos**: Create a new todo.
+- **POST /auth/signup**: Register a user.
+- **POST /auth/login**: Login a user.
+- **GET /api/v1/todos/{id}**: Retrieve their own Todo items.
+- **POST /api/v1/todos**:  Create a new Todo item.
+- **DELETE /api/v1/todos/{id}**: Delete a todo by its ID.
+- **PUT /api/v1/todos/{id}**:  Modify existing Todo items.
+- **GET /api/v1/users/**: Find users.
+- **GET /api/v1/me/**: Get current user.
+
+
 
